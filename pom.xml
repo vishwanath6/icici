@@ -51,9 +51,11 @@
       <nexusUrl>http://localhost:8088/nexus/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
-</plugin-->
+</plugin>
   </dependencies>
   <build>
     <finalName>icici</finalName>
+	
+	<sourceDirectory>src/main/java</sourceDirectory>
   </build>
 </project>
